@@ -94,11 +94,11 @@ MUNKI_ICON should be overridden with your icon name.
             <key>Arguments</key>
             <dict>
                 <key>asset_regex</key>
-                <string>^munkitools-3.6.3?pkg$</string>
+                <string>^munkitools-3.*?pkg$</string>
                 <key>github_repo</key>
                 <string>munki/munki</string>
                 <key>include_prereleases</key>
-                <string>%INCLUDE_PRERELEASES%</string>
+                <string></string>
             </dict>
         </dict>
         <dict>
