@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>fusion-inventory-agent</string>
+        <string>FusionInventory-Agent</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>Tools/Inventory</string>
         <key>MUNKI_CATEGORY</key>
