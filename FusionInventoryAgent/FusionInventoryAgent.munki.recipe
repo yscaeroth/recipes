@@ -32,6 +32,11 @@
             <string>Inventory</string>
             <key>developer</key>
             <string>GLPI</string>
+            
+            <key>postinstall_script</key>
+            <string>#!/bin/bash
+                    echo "server = http://server.domain.com/ocsinventory" >> /opt/fusioninventory-agent/etc/conf.d/sciurus.cfg
+            </string>
         </dict>
     </dict>
     <key>MinimumVersion</key>
