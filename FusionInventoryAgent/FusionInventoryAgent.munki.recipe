@@ -5,7 +5,7 @@
     <key>Description</key>
     <string></string>
     <key>Identifier</key>
-    <string>lan.sciurus.munki.FusionInventoryAgent</string>
+    <string>lan.sciurus.munki.Fusion-Inventory-Agent</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -35,14 +35,14 @@
             
             <key>postinstall_script</key>
             <string>#!/bin/bash
-                    echo "server = http://server.domain.com/ocsinventory" >> /opt/fusioninventory-agent/etc/conf.d/sciurus.cfg
+echo "server = https://inventory.sciurus.lan" >> /opt/fusioninventory-agent/etc/conf.d/sciurus.cfg
             </string>
         </dict>
     </dict>
     <key>MinimumVersion</key>
     <string>0.6.1</string>
     <key>ParentRecipe</key>
-    <string>lan.sciurus.download.FusionInventoryAgent</string>
+    <string>lan.sciurus.download.Fusion-Inventory-Agent</string>
     <key>Process</key>
     <array>
           <dict>

@@ -5,7 +5,7 @@
     <key>Description</key>
     <string></string>
     <key>Identifier</key>
-    <string>lan.sciurus.download.FusionInventoryAgent</string>
+    <string>lan.sciurus.download.Fusion-Inventory-Agent</string>
     <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
     <true />
     <key>Input</key>
