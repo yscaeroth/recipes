@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>glpi-fusion-inventory-agent</string>
+        <string>fusion-inventory-agent</string>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>Tools/Inventory/%NAME%</string>
+        <string>Tools/Inventory</string>
         <key>MUNKI_CATEGORY</key>
         <string>Inventory</string>
         <key>pkginfo</key>
@@ -23,7 +23,7 @@
             <key>description</key>
             <string></string>
             <key>display_name</key>
-            <string>GLPI Fusion Inventory Agent</string>
+            <string>FusionInventory Agent</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
