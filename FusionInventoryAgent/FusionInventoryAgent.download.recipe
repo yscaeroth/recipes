@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest version of Angry IP Scanner.</string>
+    <string></string>
     <key>Identifier</key>
     <string>lan.sciurus.download.FusionInventoryAgent</string>
     <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
