@@ -35,8 +35,25 @@
             
             <key>postinstall_script</key>
             <string>#!/bin/bash
-echo "server = https://inventory.sciurus.lan" >> /opt/fusioninventory-agent/etc/conf.d/sciurus.cfg
-            </string>
+
+# REMOVE POTENTIAL OLD CONF
+rm /opt/fusioninventory-agent/etc/conf.d/sciurus.cfg
+
+# SET NEW DEFAULTS
+
+# INVENTORY-SERVER
+echo "server = https://inventory.sciurus.lan/plugins/fusioninventory/" >> /opt/fusioninventory-agent/etc/conf.d/sciurus.cfg
+
+# DISABLE SSL CHECK
+echo "no-ssl-check = 1" >> /opt/fusioninventory-agent/etc/conf.d/sciurus.cfg
+
+# START DAEMON
+launctl start org.fusioninventory.agent
+
+# RUN AGENT
+/opt/fusioninventory-agent/bin/fusioninventory-agent
+
+exit 0</string>
         </dict>
     </dict>
     <key>MinimumVersion</key>
